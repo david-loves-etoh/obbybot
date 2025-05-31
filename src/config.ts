@@ -14,8 +14,8 @@ export default {
     LookSpeed: 0.25,
   },
   AI: {
-    Prompt: "",
-    Model: "gpt-4o-mini",
+    Prompt: "Complete the tower obby and Get to the winpad(the red brick at the top of the tower obby) as fast as possible.",
+    Model: "deepseek/deepseek-r1:free",
     EnabledFunctions: [
       "sendMessage",
       "lookAtPlayer",
@@ -29,7 +29,7 @@ export default {
     ],
     MaximumCharacterLimit: 200,
     MaximumMessageContext: 5,
-    Api: "https://api.openai.com/v1/chat/completions",
-    Key: "OPENAI_API_KEY",
+    Api: "https://openrouter.ai/api/v1/chat/completions",
+    Key: "<API_KEY>",
   },
 } as Config;
