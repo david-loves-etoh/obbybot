@@ -14,8 +14,8 @@ export default {
     LookSpeed: 0.25,
   },
   AI: {
-    Prompt: "Complete the tower obby and Get to the winpad(the red brick at the top of the tower obby) as fast as possible.",
-    Model: "deepseek/deepseek-r1:free",
+    Prompt: "Complete the tower obby (get to the winpad at the top of the tower obby) as fast as possible.",
+    Model: "deepseek/deepseek-r1-0528:free",
     EnabledFunctions: [
       "sendMessage",
       "lookAtPlayer",
